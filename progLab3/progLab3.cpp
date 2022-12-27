@@ -7,6 +7,7 @@ int main()
     setlocale(LC_ALL, "");
     int input;
     double a, b, c, d, temp;
+    double x0, y0, r;
     cout << "1 - ABS\n2 - MAX\n3 - AB\n4 - ABC\n5 - ABCD\n6 - HIT\n7 - MENU\n";
     cin >> input;
 
@@ -126,8 +127,9 @@ int main()
         break;
 
     case 6:
-        double x0 = 4, y0 = 3;
-        double r = 4;
+        x0 = 4;
+        y0 = 3;
+        r = 4;
         cout << "X = ";
         cin >> a;
         cout << "Y = ";
